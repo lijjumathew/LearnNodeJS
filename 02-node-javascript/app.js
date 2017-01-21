@@ -11,5 +11,4 @@ function onRequest(request,response){
     //console.log('3');
     response.end()
 }
-//console.log('1');
 http.createServer(onRequest).listen(8000);
